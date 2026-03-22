@@ -1,0 +1,838 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ihnse" at "2026-03-22T13:04:02.2464326Z"
+Built from '6000.0/respin/6000.0.71f1-8308b6469260' branch; Version is '6000.0.71f1 (907bc2d768b5) revision 9468866'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ko' Physical Memory: 63195 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-22T13:04:02Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.71f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Works/SkyWing
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60373
+-licensingIpc
+LicenseClient-ihnse
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Works/SkyWing
+C:/Works/SkyWing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23760]  Target information:
+
+Player connection [23760]  * "[IP] 172.30.1.98 [Port] 0 [Flags] 2 [Guid] 3374683973 [EditorId] 3374683973 [Version] 1048832 [Id] WindowsEditor(7,WaffleComm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.71f1 (907bc2d768b5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.71f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Works/SkyWing/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.8180
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.71f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.71f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.71f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.71f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002075 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              eba1a4f8a8704052ab8738a44c5247eb
+  Correlation Id:          f0022a541b74c0ed37b3405e9625ce1a
+  External correlation Id: 5628684203960392901
+  Machine Id:              6C4rR8cNkVwZTe6XNVxBzKFjJqk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ihnse" (connect: 0.00s, validation: 0.00s, handshake: 0.84s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ihnse-notifications" at "2026-03-22T13:04:03.0870441Z"
+[Licensing::Module] Licensing Background thread has ended after 0.84s
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 505ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (203ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569731308464-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.534 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1064ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4517 unused Assets / (3.3 MB). Loaded Objects now: 5001.
+Memory consumption went from 101.8 MB to 98.5 MB.
+Total: 7.751300 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.212800 ms MarkObjects: 6.154400 ms  DeleteObjects: 1.065600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 109928.733294 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV2.prefab
+  artifactKey: Guid(b788d51d82cdf18459ff7c5857438f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV2.prefab using Guid(b788d51d82cdf18459ff7c5857438f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f480ba2e46827cd08cdd9bf28607359') in 0.0984143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1060ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4515 unused Assets / (2.9 MB). Loaded Objects now: 5014.
+Memory consumption went from 107.1 MB to 104.2 MB.
+Total: 7.643300 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.140200 ms MarkObjects: 6.274400 ms  DeleteObjects: 0.965100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.607938 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Models/Su57.fbx
+  artifactKey: Guid(1611bf5d85e00b24a8020778fc683a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyMiliteryVehicles/Models/Su57.fbx using Guid(1611bf5d85e00b24a8020778fc683a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad48540321a985556023d9716ddf7df') in 0.1076932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Models/Truck.fbx
+  artifactKey: Guid(bde5f1df7b05bf8468c376e58e607d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyMiliteryVehicles/Models/Truck.fbx using Guid(bde5f1df7b05bf8468c376e58e607d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41a0727304026515d68aacf1a5fbf37f') in 0.0468245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 1035ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (541ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4515 unused Assets / (2.9 MB). Loaded Objects now: 5020.
+Memory consumption went from 107.2 MB to 104.3 MB.
+Total: 7.584800 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.157000 ms MarkObjects: 6.211700 ms  DeleteObjects: 0.934800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 83.901005 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/LightPlane.prefab
+  artifactKey: Guid(7e8bb3fe362f46d468db643a94b8f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/LightPlane.prefab using Guid(7e8bb3fe362f46d468db643a94b8f062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aa7f7040f0046f8e3d3bdc9aa2cc728') in 0.0758786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.136885 seconds.
+  path: Assets/Editor/AutoSetup.cs
+  artifactKey: Guid(b11dc0082d192eb45883e36a2c868c3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Editor/AutoSetup.cs using Guid(b11dc0082d192eb45883e36a2c868c3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '446d0cecdbeee0795e85d96aa3d36e46') in 0.0661432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002033 seconds.
+  path: Assets/Prefabs/BulletPrefab.prefab
+  artifactKey: Guid(ac1791e3fd7bfa240b8a6b7a6fb4ff00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/BulletPrefab.prefab using Guid(ac1791e3fd7bfa240b8a6b7a6fb4ff00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82e7b70b442bacb79d5f60623627f954') in 0.0506049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Textures/Grid_01_Normal.png
+  artifactKey: Guid(29868787db29fe943aaa6883e9f28d88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Textures/Grid_01_Normal.png using Guid(29868787db29fe943aaa6883e9f28d88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '320d5d2f5a28e70e8b5170bd19f0f067') in 0.0321986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(3d30f68ebebd57946a1de37b718c7bee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/BillingMode.json using Guid(3d30f68ebebd57946a1de37b718c7bee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e8ea309a1ba620df0024830885c2d0d') in 0.007586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.dll
+  artifactKey: Guid(a1a3cd348b3c4bbc82b68b73893f222a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.dll using Guid(a1a3cd348b3c4bbc82b68b73893f222a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '313b9c7561b5e5e3e5bc9a828a9af45f') in 0.0128769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Materials/Floor.mat
+  artifactKey: Guid(da5641bfa3868584abbc4f0103327c2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Materials/Floor.mat using Guid(da5641bfa3868584abbc4f0103327c2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee47bde58e69dbf0bc01da47ebdda58b') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(bb0b74655acbbfd49b10f8b6af5d06a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GameManager.cs using Guid(bb0b74655acbbfd49b10f8b6af5d06a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '486469c6feba1075de660ad3fc0be5e3') in 0.0070905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV1.prefab
+  artifactKey: Guid(99078e3151f42fd42949f97b0b73bd7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV1.prefab using Guid(99078e3151f42fd42949f97b0b73bd7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe96757117ffccd143fc70722f8c124c') in 0.011755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Models/F35.fbx
+  artifactKey: Guid(c79c6c1ef1de3c04b87c0eed93fb2884) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Models/F35.fbx using Guid(c79c6c1ef1de3c04b87c0eed93fb2884) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8740ff1525c916d6be132f232bdf6e60') in 0.0231818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Prefabs/Su57.prefab
+  artifactKey: Guid(8403b40cb52c1b34abb75577131ce87f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Prefabs/Su57.prefab using Guid(8403b40cb52c1b34abb75577131ce87f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb391451be5cf1cc7e48f8515033267f') in 0.0089751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/LightPlane.prefab
+  artifactKey: Guid(fa28e0cc64b3f4345a9d2215c5bfec80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/LightPlane.prefab using Guid(fa28e0cc64b3f4345a9d2215c5bfec80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c94fd6f3bf63dd755c116d24a3e456ce') in 0.0123957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/HelicopterV2.fbx
+  artifactKey: Guid(2d840c85e536f154889ac989ae72eb67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/HelicopterV2.fbx using Guid(2d840c85e536f154889ac989ae72eb67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '641936410b4f6bed561e4d5871fbca6c') in 0.018275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.VersionHandlerImpl.pdb
+  artifactKey: Guid(1e8744605c2b4bc8be277df27a77a368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.VersionHandlerImpl.pdb using Guid(1e8744605c2b4bc8be277df27a77a368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75657187189a5e3f9285e7a9e2edd1ea') in 0.008588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs/pilot.prefab
+  artifactKey: Guid(bcb6ad4caa10a5d40924a94bfb68eaec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs/pilot.prefab using Guid(bcb6ad4caa10a5d40924a94bfb68eaec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15c510e69be9f663c9941031df4f53f2') in 0.0147787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/EaglePlane.prefab
+  artifactKey: Guid(426e560e97af2d64ca46c3484e244231) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/EaglePlane.prefab using Guid(426e560e97af2d64ca46c3484e244231) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4503831be486de9e62f96a97826e9c27') in 0.0121366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/LightPlane.prefab
+  artifactKey: Guid(7e8bb3fe362f46d468db643a94b8f062) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/LightPlane.prefab using Guid(7e8bb3fe362f46d468db643a94b8f062) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27eb94f43f8d30000e1bb91eec3e2438') in 0.0108814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV2.prefab
+  artifactKey: Guid(43621a170426a704c921428fd4e42809) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV2.prefab using Guid(43621a170426a704c921428fd4e42809) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de05c815a8d5d8e2b38a80f5ef922e87') in 0.0108271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/BattleRoyaleManager.cs
+  artifactKey: Guid(e399dd4fd491f174e961a2622ff38cfe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/BattleRoyaleManager.cs using Guid(e399dd4fd491f174e961a2622ff38cfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2402fdf8ed0efb2ce8a39f3be55ef9d3') in 0.0083196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/MobileDependencyResolver/Editor/LICENSE
+  artifactKey: Guid(a0a74f7579114ab58b46e496d4b2ba97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/LICENSE using Guid(a0a74f7579114ab58b46e496d4b2ba97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed9a60e6df221c76925e42412bd9f967') in 0.006983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV1.prefab
+  artifactKey: Guid(16ac732b58c8753419a01038b1642b0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV1.prefab using Guid(16ac732b58c8753419a01038b1642b0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13109f769afc4786e3d6283a70accb3f') in 0.013434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Prefabs/Tank.prefab
+  artifactKey: Guid(ed364c2d9cd8fbc4dba008fbe810e510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Prefabs/Tank.prefab using Guid(ed364c2d9cd8fbc4dba008fbe810e510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30b399d2d54f725434d6402fab2c9e59') in 0.010914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MobileDependencyResolver/Editor/mobile-dependency-resolver_version-1.2.185_manifest.txt
+  artifactKey: Guid(5e590a4aab514d859dd0ac8982d9e78c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/mobile-dependency-resolver_version-1.2.185_manifest.txt using Guid(5e590a4aab514d859dd0ac8982d9e78c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '262bb269378839f163568029a6601ad4') in 0.0074842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/ComPlaneV1.fbx
+  artifactKey: Guid(744e01d3d39888e4bb092f1d04f82869) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/ComPlaneV1.fbx using Guid(744e01d3d39888e4bb092f1d04f82869) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '872a50445bca59f450523fb45e0b2240') in 0.0195385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Textures/color.png
+  artifactKey: Guid(9a2e52b192a6cb74bb59dd42bf1e1a86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Textures/color.png using Guid(9a2e52b192a6cb74bb59dd42bf1e1a86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70fefd0bab48ef495804074d445e9edb') in 0.0130873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Materials/Main.mat
+  artifactKey: Guid(4d596354ffc21e542b03cceef355b950) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Materials/Main.mat using Guid(4d596354ffc21e542b03cceef355b950) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd547b292a89e4c45c1aedec3e864563e') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/ComPlaneV1.prefab
+  artifactKey: Guid(f6d4109da7a8fb14598e335baed19ec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/ComPlaneV1.prefab using Guid(f6d4109da7a8fb14598e335baed19ec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff14ab43e1d07d0ef575ea1ac30aa8d9') in 0.0120006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV2.prefab
+  artifactKey: Guid(b788d51d82cdf18459ff7c5857438f0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/HelicopterV2.prefab using Guid(b788d51d82cdf18459ff7c5857438f0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7b6ed5a85a4f50a7741d279f6b262c3') in 0.0130051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Models/Missle.fbx
+  artifactKey: Guid(77c7770ab2b4073458e610e759f9c45e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Models/Missle.fbx using Guid(77c7770ab2b4073458e610e759f9c45e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84a95219010b43f76196a0f221a14b79') in 0.0127931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.VersionHandlerImpl.dll
+  artifactKey: Guid(e2831157d94e4d15998dcb6ad1418057) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.VersionHandlerImpl.dll using Guid(e2831157d94e4d15998dcb6ad1418057) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aa81481c0ec9eb0b940bf94cc40d1a9') in 0.016901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scripts/HealthSystem.cs
+  artifactKey: Guid(7d4ab4c60b4c47041a0bff9130587dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/HealthSystem.cs using Guid(7d4ab4c60b4c47041a0bff9130587dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3c2aae10388fead7fb874292a6a8980') in 0.0093667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Materials/Main PolyPack.mat
+  artifactKey: Guid(23f08860b16229545bce8aae76934ed8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Materials/Main PolyPack.mat using Guid(23f08860b16229545bce8aae76934ed8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e802a647d0d00c6848a8b48154949f43') in 0.0123369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Data/PartData.cs
+  artifactKey: Guid(728919bc35485a548bccc49d701312fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Data/PartData.cs using Guid(728919bc35485a548bccc49d701312fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe8ae59bbeecf81febf2328e8f701d11') in 0.0085302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.JarResolver.pdb
+  artifactKey: Guid(b7140e00752144509139e18bcf3536b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.JarResolver.pdb using Guid(b7140e00752144509139e18bcf3536b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc19e1206880459cc9178ea95e0eeda8') in 0.0080665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Prefabs/F35.prefab
+  artifactKey: Guid(33d2fc1d0c07999469310c08d25cdf22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Prefabs/F35.prefab using Guid(33d2fc1d0c07999469310c08d25cdf22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e285160a1146c6030fd53ff5994dc2f') in 0.0101336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Prefabs/Truck.prefab
+  artifactKey: Guid(2391049c7014fb8468fb8db9943bced9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Prefabs/Truck.prefab using Guid(2391049c7014fb8468fb8db9943bced9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3180241eb8fbc3dd0bb0acad049c883') in 0.0126918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(62c365096ff08d04487d12f5536718b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AudioManager.cs using Guid(62c365096ff08d04487d12f5536718b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c09a0ab731636c050b98366e62cc543') in 0.0096084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/ComPlaneV3.prefab
+  artifactKey: Guid(7a4952846ba09894b99aeabfdafb8ec0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/ComPlaneV3.prefab using Guid(7a4952846ba09894b99aeabfdafb8ec0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6349c3d4646f6d2d79279aac6103a952') in 0.0125694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Materials/Transparent.mat
+  artifactKey: Guid(84aad6b4debebe54c974cb2df32eff3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Materials/Transparent.mat using Guid(84aad6b4debebe54c974cb2df32eff3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd9fabc9790bfb569d45f92040819d2a') in 0.0399954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(617878bc78cd8ea479dbaa3952983342) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Projectile.cs using Guid(617878bc78cd8ea479dbaa3952983342) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8f2b59d5afab3aea451edd032bc7b5e') in 0.0093823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs/rafale.prefab
+  artifactKey: Guid(d89793a428d571d428a410f797094a0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/POLYGRUNT - Lowpoly Rafale Jet/Prefabs/rafale.prefab using Guid(d89793a428d571d428a410f797094a0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4225078378f14d4f34991f817975dc2f') in 0.0158223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/ComPlaneV2.fbx
+  artifactKey: Guid(fd91ce56340022c4aa29e8e9c633331d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/ComPlaneV2.fbx using Guid(fd91ce56340022c4aa29e8e9c633331d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a64c5a6a2d907e5ff16e2d830a87bf95') in 0.0243894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/RankSystem.cs
+  artifactKey: Guid(22e3437eaf27134439085f57bb946f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RankSystem.cs using Guid(22e3437eaf27134439085f57bb946f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ca6efd6f30e8c1810050292c1291e51') in 0.0103076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(111687682cf7dc64a9140de2d08930e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerController.cs using Guid(111687682cf7dc64a9140de2d08930e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b40d1f86f7818f92a0f80c4f6dd227c') in 0.0101255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/LightPlane.fbx
+  artifactKey: Guid(ce6fe505706315346805b6826be0701b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/LightPlane.fbx using Guid(ce6fe505706315346805b6826be0701b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26fc2b4932939341b2948b0c9cbc52e7') in 0.0241716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.pdb
+  artifactKey: Guid(e776230601db4ffbbbd4e1266bdcdc23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.pdb using Guid(e776230601db4ffbbbd4e1266bdcdc23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce43e61bc9a047ca24156557b3086ab6') in 0.0100873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/MobileDependencyResolver/Editor/Google.VersionHandler.dll
+  artifactKey: Guid(61c24b9980ea49ae90c8b62fb489de77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/Google.VersionHandler.dll using Guid(61c24b9980ea49ae90c8b62fb489de77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ac3c1ff135c653301d15529b1c8a456') in 0.015258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(be49c8b25e086e545b75192be8104115) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UIManager.cs using Guid(be49c8b25e086e545b75192be8104115) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58edcbb5c42475f14f2f064816deef72') in 0.0120481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scripts/WeaponSystem.cs
+  artifactKey: Guid(0b12a0cd3b2c4e5488af2fb59430b3c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/WeaponSystem.cs using Guid(0b12a0cd3b2c4e5488af2fb59430b3c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed3dae54aa9262ca77bdd499c665dd06') in 0.0113372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Textures/Grid_00_BaseMap.png
+  artifactKey: Guid(1695f871c40f1c7449348893539e938e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Textures/Grid_00_BaseMap.png using Guid(1695f871c40f1c7449348893539e938e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0ac8d55eb2c09df606797fb284ee833') in 0.0175313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/MobileDependencyResolver/Editor/Google.VersionHandler.pdb
+  artifactKey: Guid(1c9aac8d9a8a4327ab36da49fd34139a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MobileDependencyResolver/Editor/Google.VersionHandler.pdb using Guid(1c9aac8d9a8a4327ab36da49fd34139a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '007691a0569000c82fa817a2e0462ea7') in 0.0095988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Scripts/Data/FighterData.cs
+  artifactKey: Guid(0dcf66534a1b00c4b83a0d4ef5e10d2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Data/FighterData.cs using Guid(0dcf66534a1b00c4b83a0d4ef5e10d2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b62dd9eef28d5b3d24b9f6c29c87e600') in 0.011588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scripts/Radar.cs
+  artifactKey: Guid(baffdd7e9676db541a08e226af439581) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Radar.cs using Guid(baffdd7e9676db541a08e226af439581) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9bf15c6d4b1a4aa4feb4cb4b2c67bad') in 0.0107155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scripts/NetworkManagerMock.cs
+  artifactKey: Guid(cc8b7040616c76741beee2af6426f257) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/NetworkManagerMock.cs using Guid(cc8b7040616c76741beee2af6426f257) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '629316e3fd9deb083d78ac525504665e') in 0.012668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Texture/PolyPackPlanes.png
+  artifactKey: Guid(2b21df6ad6168a94a925b9ce5dd88c99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Texture/PolyPackPlanes.png using Guid(2b21df6ad6168a94a925b9ce5dd88c99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a57b981177dc9e7001ba236f55cb8743') in 0.016877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV3.prefab
+  artifactKey: Guid(d4c282f29cc3cc84aa97220cdd635584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Prefabs/Version 1.2/ComPlaneV3.prefab using Guid(d4c282f29cc3cc84aa97220cdd635584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0896bdf306fde8e328dc87d702b457a4') in 0.0172858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/ComPlaneV2.fbx
+  artifactKey: Guid(6d974e26910e9354184272f39acc7a36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/ComPlaneV2.fbx using Guid(6d974e26910e9354184272f39acc7a36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bef850e29108921b6d213b90407c8c5') in 0.026741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/EaglePlane.fbx
+  artifactKey: Guid(1657bf789360cc84d9a407900d2c929e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Alstra Infinite/Planes LowPoly/Models/Version 1.2/EaglePlane.fbx using Guid(1657bf789360cc84d9a407900d2c929e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1ba90873f49d0078142a8b32242b8c5') in 0.0226131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyMiliteryVehicles/Textures/MilSim.png
+  artifactKey: Guid(2d9d9c3deae3bcf4aa08ba9024e5193d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LowPolyMiliteryVehicles/Textures/MilSim.png using Guid(2d9d9c3deae3bcf4aa08ba9024e5193d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4542983b0ef94523054ea693f7d79d03') in 0.0165552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(4e4718382b4938543902c8e61506b494) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/CameraController.cs using Guid(4e4718382b4938543902c8e61506b494) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fca62bb49bad320bb9593152cbbbb5b') in 0.0111034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
